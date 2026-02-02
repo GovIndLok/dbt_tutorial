@@ -1,0 +1,19 @@
+dbt_tutorial:
+  outputs:
+    dev:
+      catalog: 
+      host: 
+      http_path: 
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+    prod:
+      catalog: 
+      host: 
+      http_path: 
+      schema: default
+      threads: 1
+      token: 
+      type: 
+  target: dev
